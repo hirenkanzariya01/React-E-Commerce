@@ -1,0 +1,68 @@
+.footerLinks {
+  background-color: white;
+  color: black;
+  padding: 0 50px 50px 50px;
+  width: 25%;
+  margin-bottom: 35px;
+}
+
+.footerLinks h3,
+.footerLinks h4 {
+  color: #f42c37;
+  margin-bottom: 10px;
+}
+
+.footerLinks p {
+  color: black;
+  font-size: 14px;
+  line-height: 1.6;
+  cursor: pointer;
+}
+
+.footerLinks button {
+  padding: 8px 15px;
+  color: white;
+  background-color: #f42c37;
+  border-radius: 20px;
+  border: none;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+.footerLinks button:hover {
+  background-color: #333;
+}
+
+.icons {
+  display: flex;
+  gap: 12px;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.icons svg {
+  cursor: pointer;
+  color: black;
+}
+
+.icons svg:hover {
+  color: gray;
+}
+
+/* Layout */
+div>.footerLinks {
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .footerLinks {
+    width: 100%;
+    text-align: center;
+  }
+
+  .icons {
+    justify-content: center;
+  }
+}

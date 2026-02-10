@@ -1,0 +1,47 @@
+.carosul-main {
+  height: 90vh;
+  border-radius: 20px;
+  padding: 120px 80px !important;
+  /* margin-bottom: 50px; */
+  margin: 0 50px 50px 50px;
+
+  background: linear-gradient(to right, #cccccca8, #cccccc9f, #cccccc5d);
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+
+  & .content {
+    h3 {
+      text-transform: capitalize;
+      color: black;
+      font-weight: 700;
+      font-size: 25px;
+    }
+
+    h2 {
+      text-transform: capitalize;
+      color: black;
+      font-weight: 700;
+      font-size: 65px;
+    }
+
+    h1 {
+      text-transform: capitalize;
+      color: white;
+      font-weight: 700;
+      font-size: 160px;
+    }
+
+    button {
+      padding: 7px 25px;
+      background-color: #f42c37;
+      border: none;
+      border-radius: 20px;
+    }
+  }
+
+  & .image {
+    position: absolute;
+    right: 100px;
+  }
+}

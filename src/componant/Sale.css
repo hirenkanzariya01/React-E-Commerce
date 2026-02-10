@@ -1,0 +1,59 @@
+.sale {
+  /* background-color: rgb(244 44 55); */
+  border-radius: 20px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+  height: 300px;
+  width: 100%;
+  margin: 150px 0;
+
+  .left,
+  .right,
+  .image {
+    width: 30%;
+  }
+
+  & .image {
+    img {
+      width: 100%;
+      filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.621));
+    }
+  }
+
+  p {
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+  }
+
+  h1 {
+    font-size: 65px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+  }
+
+  h4{
+    font-size: 18px;
+    font-weight: 700;
+  }
+  h2{
+    font-size: 40px;
+    font-weight: 700;
+  }
+
+  button {
+    background-color: white;
+    color: rgb(244 44 55);
+    padding: 8px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 15px;
+  } 
+}

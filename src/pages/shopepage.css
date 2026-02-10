@@ -1,0 +1,72 @@
+.ShopSection {
+  padding: 0 50px;
+}
+
+.shopHeading {
+  padding: 50px;
+  color: black;
+  height: 250px;
+  background: linear-gradient(to right, #cccccca8, #cccccc9f, #cccccc5d);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.ShopBody {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0;
+
+  .filter {
+    height: 100%;
+    width: 15%;
+    position: sticky;
+    top: 0;
+    background: linear-gradient(to right, #cccccca8, #cccccc9f, #cccccc5d);
+    border-radius: 20px;
+    padding: 20px;
+
+    h3 {
+      color: #f42c37;
+    }
+
+    h4 {
+      font-size: 18px;
+      font-weight: 700;
+    }
+
+    p {
+      margin: 2px;
+      padding: 2px 2px 2px 10px;
+      border: 1px solid #f42c3600;
+      border-left-width:5px ;
+      cursor: pointer;
+    }
+
+    p:hover {
+      border: 1px solid #f42c37;
+      border-radius: 20px;
+      border-left-width:5px ;
+    }
+  }
+
+  .products {
+    width: 85%;
+    /* overflow-y: scroll; */
+  }
+
+  .productCArd {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    .p_card {
+      margin: 10px 5px;
+    }
+  }
+
+
+
+
+}

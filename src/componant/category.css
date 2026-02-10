@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.mainCategorySection {
+padding: 50px 0;
+
+  .firstRow {
+    display: flex;
+    gap: 25px;
+    width: 100%;
+    padding-bottom: 30px ;
+  }
+
+  .product_card {
+    display: flex;
+    /* background-color: red; */
+    padding: 20px;
+    border-radius: 20px;
+    height: 300px;
+    position: relative;
+
+    & p {
+      color: #aaa;
+      margin: 0;
+      padding-top: 80px;
+    }
+
+    & h3 {
+      color: white;
+      font-size: 25px;
+      margin: 0;
+    }
+
+    & h1 {
+      color: rgba(255, 255, 255, 0.387);
+      font-weight: 700;
+    }
+
+    & button {
+      background-color: white;
+      padding: 7px 25px;
+      border: none;
+      border-radius: 20px;
+    }
+
+    & .earphone {
+      width: 250px;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+    }
+
+    & .watch {
+      width: 300px;
+      position: absolute;
+      bottom: 50px;
+      right: -50px;
+    }
+
+    & .leptop {
+      width: 250px;
+      position: absolute;
+      bottom: 30px;
+      right: 0;
+    }
+
+
+
+    & .product_image {
+      width: 100%;
+
+    }
+  }
+
+  & .small {
+    width: 24%;
+  }
+
+  & .large {
+    width: 50%;
+  }
+
+  & .black {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.864), rgba(0, 0, 0, 0.735));
+  }
+
+  & .yellow {
+    background: linear-gradient(to right, rgba(255, 204, 1, 0.864), rgba(255, 230, 1, 0.664));
+  }
+
+  & .pink {
+    background-color: rgb(232, 65, 93);
+  }
+
+
+  & .services{
+    display: flex;
+    justify-content: space-between;
+
+    & .service{
+      display: flex;
+      align-items: center;
+      gap: 15px;
+
+      & .icon{
+        font-size: 45px;
+        color: rgb(244 44 55);
+      }
+
+      & h3{
+        font-size: 18px;
+        margin: 0;
+        font-weight: 700;
+        margin-top: 10px;
+      }
+      & p{
+        font-size: 14px;
+        margin: 0;
+      }
+    }
+  }
+
+}
