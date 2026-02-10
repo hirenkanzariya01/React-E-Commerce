@@ -17,7 +17,7 @@ function NavbarBoostrap() {
 
   const handleSearchClick = () => {
     
-    let filterData = data.filter((e) => e.brand.toLowerCase() == search.toLowerCase() || e.name.toLowerCase().includes(search.toLowerCase()))
+    let filterData = data.filter((e) => e.brand.toLowerCase() === search.toLowerCase() || e.name.toLowerCase().includes(search.toLowerCase()))
     navigate('/shoppage', {state:filterData})
   }
 

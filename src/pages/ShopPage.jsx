@@ -27,7 +27,7 @@ function ShopPage() {
 
   const handleCategoryClick = (a) => {
     setFilterBy(a)
-    const filterCtegoryData = a ? data.filter((e) => e.category == a) : data
+    const filterCtegoryData = a ? data.filter((e) => e.category === a) : data
     setFilterData(filterCtegoryData)
     setSearchItem(filterCtegoryData)
   }
@@ -38,15 +38,15 @@ function ShopPage() {
 
 
   const handlePrice = (min, max) => {
-    if (max == 'MAX') {
-      let filterPriceData = filterBy ? data.filter((e) => e.price > min && e.category == filterBy) : data.filter((e) => e.price > min)
+    if (max === 'MAX') {
+      let filterPriceData = filterBy ? data.filter((e) => e.price > min && e.category === filterBy) : data.filter((e) => e.price > min)
       setFilterData(filterPriceData)
       setSearchItem(filterPriceData)
 
     }
 
     else {
-      let filterPriceData = filterBy ? data.filter((e) => e.price > min && e.price < max && e.category == filterBy) : data.filter((e) => e.price > min && e.price < max)
+      let filterPriceData = filterBy ? data.filter((e) => e.price > min && e.price < max && e.category === filterBy) : data.filter((e) => e.price > min && e.price < max)
       setFilterData(filterPriceData)
       setSearchItem(filterPriceData)
 
