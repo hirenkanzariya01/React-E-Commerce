@@ -22,7 +22,7 @@ function Catrgory() {
             <button>Browse</button>
           </div>
           <div className="product_image ">
-            <img src={product1} alt="" className='earphone' />
+            <img src={product1} alt="image" className='earphone' />
           </div>
         </div>
         <div className="product_card small yellow" data-aos="fade-up"  data-aos-delay="300">
@@ -33,7 +33,7 @@ function Catrgory() {
             <button>Browse</button>
           </div>
           <div className="product_image">
-            <img src={product2} alt="" className='watch' />
+            <img src={product2} alt="image" className='watch' />
           </div>
         </div>
         <div className="product_card large pink" data-aos="fade-up"  data-aos-delay="500">
@@ -44,7 +44,7 @@ function Catrgory() {
             <button>Browse</button>
           </div>
           <div className="product_image">
-            <img src={product3} alt="" className='leptop' />
+            <img src={product3} alt="image" className='leptop' />
           </div>
         </div>
 
@@ -58,7 +58,7 @@ function Catrgory() {
             <button>Browse</button>
           </div>
           <div className="product_image">
-            <img src={product3} alt="" className='leptop' />
+            <img src={product3} alt="image" className='leptop' />
           </div>
         </div>
 
@@ -70,7 +70,7 @@ function Catrgory() {
             <button>Browse</button>
           </div>
           <div className="product_image ">
-            <img src={product1} alt="" className='earphone' />
+            <img src={product1} alt="image" className='earphone' />
           </div>
         </div>
         <div className="product_card small yellow">
@@ -81,7 +81,7 @@ function Catrgory() {
             <button>Browse</button>
           </div>
           <div className="product_image">
-            <img src={product2} alt="" className='watch' />
+            <img src={product2} alt="image" className='watch' />
           </div>
         </div>
 

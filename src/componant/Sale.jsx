@@ -11,7 +11,7 @@ function Sale(props) {
         <p>{props.data.date}</p>
       </div>
       <div className="image">
-        <img src={props.data.imagePath} data-aos="zoom-in" alt="" />
+        <img src={props.data.imagePath} data-aos="zoom-in" alt="image" />
       </div>
       <div className="right">
         <h4>{props.data.subtitle}</h4>

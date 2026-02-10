@@ -17,21 +17,21 @@ function News() {
 
       <div className="news" style={{ padding: '0px 50px ' }}>
         <div className="news_card">
-          <img src={image1} alt="" />
+          <img src={image1} alt="image" />
           <p>Jan 20, 2024 by Dilshad</p>
           <h5>How to choose perfect smartwatch</h5>
           <p>minima facere deserunt vero illo beatae deleniti eius dolores consequuntur, eligendi corporis maiores molestiae laudantium. Porro</p>
         </div>
 
         <div className="news_card">
-          <img src={image2} alt="" />
+          <img src={image2} alt="image" />
           <p>Jan 20, 2024 by Dilshad</p>
           <h5>How to choose perfect smartwatch</h5>
           <p>minima facere deserunt vero illo beatae deleniti eius dolores consequuntur, eligendi corporis maiores molestiae laudantium. Porro</p>
         </div>
 
         <div className="news_card">
-          <img src={image3} alt="" />
+          <img src={image3} alt="image" />
           <p>Jan 20, 2024 by Dilshad</p>
           <h5>How to choose perfect smartwatch</h5>
           <p>minima facere deserunt vero illo beatae deleniti eius dolores consequuntur, eligendi corporis maiores molestiae laudantium. Porro</p>
