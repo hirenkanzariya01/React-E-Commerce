@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react'
 import data from '../ProductData.json'
 import './shopepage.css'
 import { FaRegStar, FaStar } from 'react-icons/fa6'
-import { CiStar } from 'react-icons/ci'
 import { useLocation } from 'react-router-dom'
 
 
@@ -67,10 +66,6 @@ function ShopPage() {
   }, [])
 
 
-
-  const handleSearch = () => {
-    console.log('search is call')
-  }
 
 
 

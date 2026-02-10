@@ -1,6 +1,5 @@
 import React from 'react'
 import './Sale.css'
-import image from '../images/main_image.png'
 import 'animate.css'
 function Sale(props) {
   console.log(props);

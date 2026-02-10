@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react'
-import image from '../images/p1.jpg'
 import './products.css'
 import data from '../ProductData.json'
 import { FaRegStar } from 'react-icons/fa6';
