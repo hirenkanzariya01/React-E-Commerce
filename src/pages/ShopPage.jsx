@@ -2,12 +2,14 @@ import React, { useEffect, useState } from 'react'
 import data from '../ProductData.json'
 import './shopepage.css'
 import { FaRegStar, FaStar } from 'react-icons/fa6'
-import { useLocation } from 'react-router-dom'
-
+import { useLocation, useNavigate } from 'react-router-dom'
 
 function ShopPage() {
   const location = useLocation()
   let searchData = location.state || ""
+
+  const navigate = useNavigate()
+
 
   console.log('In Shope page ', searchData)
   const [filterData, setFilterData] = useState(data)
@@ -56,9 +58,13 @@ function ShopPage() {
     let raingFilter = data.filter((e) => e.rating > min && e.rating <= max)
     setFilterData(raingFilter)
     setSearchItem(raingFilter)
-
-
   }
+
+  const navigateToDetails = (data) => {
+    console.log("clicked product Data-->", data)
+    navigate('/productdetails', {state:data})
+  }
+
 
   useEffect(() => {
     handleCategory()
@@ -90,7 +96,7 @@ function ShopPage() {
             }
           </div>
           <hr />
-          <div className="price">
+          <div className="price0">
             <h4>By Price</h4>
             <p onClick={() => { handlePrice(0, 10000) }}> 0-10,000</p>
             <p onClick={() => { handlePrice(10000, 20000) }}>10,000 - 20,000</p>
@@ -153,7 +159,7 @@ function ShopPage() {
 
                 filterData.map((e) => {
                   return (
-                    <div className='p_card' key={e.id}>
+                    <div className='p_card' key={e.id} onClick={() => navigateToDetails(e)}>
                       <div className="image">
                         <img src={e.image} alt="image" />
                       </div>

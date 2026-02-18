@@ -1,0 +1,76 @@
+.AboutPage {
+  padding: 50px;
+}
+
+.aboutHerosection {
+  display: flex;
+  gap: 50px;
+
+  .left {
+    width: 50%;
+
+    h1 {
+      color: #f42c37;
+      padding: 20px 0;
+    }
+
+    p {
+      font-size: 18px;
+      text-align: justify;
+    }
+
+    .contactBtn {
+      color: white;
+      background-color: #f42c37;
+      padding: 7px 30px;
+      margin-top: 30px;
+      font-size: 18px;
+      border: none;
+      border-radius: 25px;
+    }
+  }
+
+  .right {
+    width: 50%;
+
+    img {
+      width: 80%;
+    }
+  }
+}
+
+.location {
+  display: flex;
+  margin-top: 50px;
+  gap: 50px;
+
+  .map {
+    width: 50%;
+
+  }
+
+  .info {
+    width: 50%;
+
+
+    h1 {
+      color: #f42c37;
+      padding: 20px 0;
+    }
+
+    p {
+      font-size: 18px;
+      text-align: justify;
+    }
+
+    .contactBtn {
+      color: white;
+      background-color: #f42c37;
+      padding: 7px 30px;
+      margin-top: 30px;
+      font-size: 18px;
+      border: none;
+      border-radius: 25px;
+    }
+  }
+}

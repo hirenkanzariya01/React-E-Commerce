@@ -21,7 +21,7 @@ function Catrgory() {
             <h1>Earphone</h1>
             <button>Browse</button>
           </div>
-          <div className="product_image ">
+          <div className="product_image">
             <img src={product1} alt="image" className='earphone' />
           </div>
         </div>
